@@ -8,10 +8,12 @@ function ButtonGroup(props) {
 
     return (<>
         {props.names.map(
-            (name, index) => <SimpleButton
-                name={name} key={index} index={index}
-                selected={index === selected} choose={chooseButton}>
-            </SimpleButton>)}
+            (name, index) =>    <SimpleButton
+                                    name={name} 
+                                    key={index} 
+                                    index={index}
+                                    selected={index === selected} choose={chooseButton}>
+                                </SimpleButton>)}
     </>);
 
 }

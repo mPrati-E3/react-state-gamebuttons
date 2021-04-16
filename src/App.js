@@ -7,6 +7,7 @@ const names = ['Chess', 'Poker', 'Black Jack', 'Go'] ;
 function App() {
   return (
     <Container>
+      <h1>Choose your game</h1>
       <ButtonGroup names={names}/>
     </Container>
   );
